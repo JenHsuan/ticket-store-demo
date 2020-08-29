@@ -3,9 +3,14 @@
 ## Technical stacks
 * React
 * Redux
+* React hooks
+* Redux hooks
 * Styled component
 * Styled system
 * json-server
+
+## Demo
+* [30 seconds demo video for the ticket store](https://www.youtube.com/watch?v=PapBtVnass0&feature=youtu.be)
 
 ## Requirements
 ### 情境:
