@@ -154,8 +154,18 @@ export default {
           textAlign: 'center'
         },
         unFocus: {
-          fontSize: '18px',
-          bg: 'red'
+          fontSize: '14px',
+          color: 'gray',
+          bg: '#F5F3F3',
+          width: '45%',
+          margin: '2%',
+          paddingTop: '3%',
+          paddingBottom: '3%',
+          borderRadius: '10px',
+          border: 'none',
+          cursor: 'pointer',
+          whiteSpace: 'nowrap',
+          textAlign: 'center'
         }
     },
     backStepButton: {
