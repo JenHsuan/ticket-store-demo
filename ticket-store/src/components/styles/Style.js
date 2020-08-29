@@ -107,3 +107,12 @@ export const ColorCircleBarStyle = styled('div')(
     },
   }),
 );
+
+export const DropDownStyle = styled('select')(
+  variant({
+    scale: 'dropDown',
+    variants: {
+      primary: {},
+    },
+  }),
+);

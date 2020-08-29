@@ -192,7 +192,7 @@ export default {
       primary: {
         fontSize: '20px',
         marginLeft: 30,
-        marginBottom: 40,
+        marginBottom: 10,
         width: '80%',
         bg: '#F5F3F3',
         border: 'none',
@@ -210,6 +210,17 @@ export default {
     colorCircleBar: {
       primary: {
         marginLeft: 30
+      }
+    },
+    dropDown: {
+      primary: {
+        fontSize: '20px',
+        marginLeft: 30,
+        marginBottom: 10,
+        width: '80%',
+        bg: '#F5F3F3',
+        border: 'none',
+        height: 50
       }
     }
 };

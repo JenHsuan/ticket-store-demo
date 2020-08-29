@@ -5,7 +5,8 @@ export const initialState = {
     name: '',
     color: 'red',
     fee: 100,
-    discount: 10
+    discount: 10,
+    shops: []
 }
 
 //Selector functions
@@ -15,3 +16,4 @@ export const selectNameState = (rootState) => rootState.ticketsReducer.name;
 export const selectColorState = (rootState) => rootState.ticketsReducer.color;
 export const selectFeeState = (rootState) => rootState.ticketsReducer.fee;
 export const selectDiscountState = (rootState) => rootState.ticketsReducer.discount;
+export const selectShopsState = (rootState) => rootState.ticketsReducer.shops;

@@ -5,7 +5,8 @@ import {
     SET_NAME,
     SET_COLOR,
     SET_FEE,
-    SET_DISCOUNT
+    SET_DISCOUNT,
+    GET_SHOPS
 } from '../types'
 
 //States
@@ -25,6 +26,11 @@ const ticketsReducer = (state = initialState, action) => {
             return {
                 ...state,
                 shopId: action.payload
+            }
+        case GET_SHOPS:
+            return {
+                ...state,
+                shops: action.payload
             }
         case SET_COLOR:
             return {

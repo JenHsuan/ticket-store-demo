@@ -7,6 +7,7 @@ import {
 } from '../components/styles/Style'
 import ColorCircleIcon from '../components/ColorCircleIcon'
 import NameInput from '../components/NameInput'
+import ShopsDropdown from '../components/ShopsDropdown'
 
 const CentralPanelStepOne = () => {
     return (
@@ -17,6 +18,7 @@ const CentralPanelStepOne = () => {
             <TitleStyle variant='sub'>
                 指定發送店舖
             </TitleStyle>
+            <ShopsDropdown/>
             <TitleStyle variant='sub'>
                 名稱
             </TitleStyle>
