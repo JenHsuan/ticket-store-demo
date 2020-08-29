@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import articlesReducer from './ticketsReducer';
+import ticketsReducer from './ticketsReducer';
 
 export default combineReducers({
-    articlesReducer: articlesReducer
+    ticketsReducer: ticketsReducer
 });
