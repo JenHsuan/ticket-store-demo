@@ -1,5 +1,13 @@
-## Ticket store demo
+# Ticket store demo
 
+## Technical stacks
+* React
+* Redux
+* Styled component
+* Styled system
+* json-server
+
+## Requirements
 ### 情境:
 
 - 新建 npm 專案。
